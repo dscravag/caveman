@@ -11,8 +11,8 @@ set(CMAKE_CXX_FLAGS "-std=c++0x")
 set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
 
 #Inclusion de SDL2
-include_directories(/usr/local/include/SDL2)
-link_directories(/usr/local/lib)
+include_directories(/usr/include/SDL2)
+link_directories(/usr/lib/x86_64-linux-gnu)
 
 
 # variables
