@@ -6,6 +6,7 @@ set (CAVEMAN_VERSION_MINOR 0)
 #Declaration du projet
 project(CAVEMAN)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 #set(CMAKE_CXX_FLAGS "-std=gnu++0x")
 set(CMAKE_CXX_FLAGS "-std=c++0x")
 set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
